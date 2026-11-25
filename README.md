@@ -38,5 +38,5 @@ Open `index.html` in any current browser (Chrome, Edge, Firefox, Safari).
 
 ## Credits
 
-Benjamin Schmid, Yves Mondet · OST Rapperswil.
+Benjamin Schmid · OST Rapperswil.
 Charts: [uPlot](https://github.com/leeoniya/uPlot) (MIT licence, see `THIRD_PARTY_LICENSES.md`).

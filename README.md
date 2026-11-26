@@ -1,9 +1,9 @@
 # Response Spectra and SDOF Oscillator
 
 Interactive teaching tool for the lecture *AK 1 Earthquake Engineering* (Lecture 9), OST Rapperswil.
-It runs entirely in the browser: one static HTML file, no server, no installation.
+It runs entirely in the browser: static HTML files, no server, no installation. English (`index.html`) and German (`de.html`); the language button in the header switches between them, and visitors with a German browser language are sent to the German version on their first visit.
 
-**Live version:** `https://benjamin90ost.github.io/ost-earthquake-engineering/`
+**Live version:** `https://<github-user>.github.io/<repository>/`
 
 ## Features
 
@@ -26,15 +26,15 @@ Further: custom ground motion upload (.txt/.csv; one column a_g or two columns t
 ## Deploy on GitHub Pages
 
 1. Create a new public repository on GitHub (e.g. `response-spectra`).
-2. Upload `index.html`, `README.md` and `THIRD_PARTY_LICENSES.md` (*Add file → Upload files*, then *Commit changes*).
+2. Upload `index.html`, `de.html`, `README.md` and `THIRD_PARTY_LICENSES.md` (*Add file → Upload files*, then *Commit changes*).
 3. *Settings → Pages → Build and deployment*: Source *Deploy from a branch*, Branch `main`, folder `/ (root)`, *Save*.
 4. After about one minute the app is available at `https://<github-user>.github.io/<repository>/`.
 
-To update, upload a new `index.html` with the same name; GitHub Pages republishes automatically.
+To update, upload new `index.html` / `de.html` files with the same names; GitHub Pages republishes automatically.
 
 ## Run locally
 
-Open `index.html` in any current browser (Chrome, Edge, Firefox, Safari).
+Open `index.html` or `de.html` in any current browser (Chrome, Edge, Firefox, Safari).
 
 ## Credits
 
